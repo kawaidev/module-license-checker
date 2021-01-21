@@ -1,0 +1,17 @@
+{
+  "name": "module-license-checker",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "csv-writer": "^1.6.0",
+    "license-checker": "^25.0.1",
+    "make-dir": "^3.1.0",
+    "minimist": "^1.2.5"
+  },
+  "bin": {
+    "module-license-checker": "bin/module-license-checker.js"
+  }
+}
